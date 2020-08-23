@@ -8,7 +8,7 @@ $ cmake ..
 $ make
 $ ./label_tools_video --config ../config/label_tools_video.yaml
 ```
-- Usage guide
+Usage guide
 * ESC | to quit the software
 * q   | to play the next video file
 * p   | 'TOGGLE' to play or pause the video
@@ -26,5 +26,5 @@ $ cmake ..
 $ make
 $ ./label_tools_checker --config ../config/label_tools_video.yaml
 ```
-- Result
+Result
 ![result_1](pictures/label_tools_checker.png)
