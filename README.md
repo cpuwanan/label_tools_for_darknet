@@ -17,4 +17,4 @@ $ make
 $ ./label_tools_checker --config ../config/label_tools_video.yaml
 ```
 - Result
-![result_1](pictures/label_tools_checker.jpg)
+![result_1](pictures/label_tools_checker.png)
