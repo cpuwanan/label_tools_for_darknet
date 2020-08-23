@@ -1,6 +1,6 @@
 input:
   video_subfix: [".mp4", ".avi"]
-  video_dir: /mnt/mydata/Documents/media/colgate_200804
+  video_dir: /home/mycomputer/Documents/media/my_videos
 
 output:
   root_dir: ../label_tools_results
