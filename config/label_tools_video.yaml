@@ -1,0 +1,16 @@
+input:
+  video_subfix: [".mp4", ".avi"]
+  video_dir: /mnt/mydata/Documents/media/colgate_200804
+
+output:
+  root_dir: ../label_tools_results
+  labeled_images_dir: ../label_tools_results/images
+  
+deep_learning:
+  class_names: ["carton", "forklift", "pallet", "shutter door"]
+  annotation_filename: colgate_ndc.names
+  dataset_prefix: data/obj_colgate_ndc
+  train_dataset_filename: colgate_train.txt
+  test_dataset_filename: colgate_test.txt
+  split_test_ratio: 0.2   # 20% of entire data for testing 
+  save_patched_images: true
