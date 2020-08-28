@@ -1,19 +1,13 @@
 input:
-  image_dir: /mnt/mydata/tutorials/deep_learning/darknet/data/colgate/main_hallway_labeled
+  image_dir: /folder/to/images
 
 output:
-  root_dir: /mnt/mydata/tutorials/deep_learning/darknet/data/colgate
-  image_folder: main_hallway_labeled
+  root_dir: /target/folder/
+  image_folder: my_output
   image_subfix: .png
   
 training:
   class_names: ["carton", "forklift", "pallet", "shutter door"]
   annotation_filename: colgate_ndc.names  # will be saved at output/root_dir
   
-spilt_train_test:
-  dataset_dir_prefix: data/colgate/loading_bay
-  train_dataset_filename: train_2.txt
-  test_dataset_filename: test_2.txt
-  split_test_ratio: 0.2   # 20% of entire data for testing 
-  save_patched_images: true
 
