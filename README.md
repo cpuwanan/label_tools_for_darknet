@@ -1,7 +1,7 @@
 # label_tools_for_darknet
 Label tools for image training by YOLO Darknet
 
-# Ex 1: Usage for video label
+## Ex 1: Video Label Tool
 ```
 $ cd build
 $ cmake ..
@@ -22,7 +22,7 @@ $ ./label_tools_video --config ../config/label_tools_video.yaml
 | d   | to delete a labeled box by 'ID'                |
 | r   | to reset polygon position                      |
 
-# Ex 2: Usage for label checker
+## Ex 2: Image Label Tool
 ```
 $ cd build
 $ cmake ..
