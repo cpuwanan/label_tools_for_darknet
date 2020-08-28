@@ -8,7 +8,8 @@ $ cmake ..
 $ make
 $ ./label_tools_video --config ../config/label_tools_video.yaml
 ```
-Usage guide
+- Usage guide
+
 | Key | Description                                    |
 |-----|------------------------------------------------|
 | ESC | to quit the software                           |
@@ -17,8 +18,8 @@ Usage guide
 | s   | to set the starting frame No. for video play   |
 | f   | to set the labels on the current image         |
 | a   | to add the labeled box to the database         |
-| d   | to display 'ID' to all labeled boxes           |
-| D   | to delete a labeled box by 'ID'                |
+| 1   | to display 'ID' to all labeled boxes           |
+| d   | to delete a labeled box by 'ID'                |
 | r   | to reset polygon position                      |
 
 # Ex 2: Usage for label checker
@@ -26,7 +27,17 @@ Usage guide
 $ cd build
 $ cmake ..
 $ make
-$ ./label_tools_checker --config ../config/label_tools_video.yaml
+$ ./label_tools_image --config ../config/label_tools_image.yaml
 ```
-Result
-![result_1](pictures/label_tools_checker.png)
+- Usage guide
+
+| Key | Description                                    |
+|-----|------------------------------------------------|
+| ESC | to quit the software                           |
+| q   | to show the next image                         |
+| w   | to show the previous image                     |
+| a   | to add the labeled box to the database         |
+| 1   | to display 'ID' to all labeled boxes           |
+| d   | to delete a labeled box by 'ID'                |
+| f   | to delete the last labeled box                 |
+| r   | to reset polygon position                      |
