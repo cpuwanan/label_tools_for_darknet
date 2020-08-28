@@ -9,6 +9,8 @@ $ make
 $ ./label_tools_video --config ../config/label_tools_video.yaml
 ```
 Usage guide
+| Key | Description                                    |
+|-----|------------------------------------------------|
 | ESC | to quit the software                           |
 | q   | to play the next video file                    |
 | p   | 'TOGGLE' to play or pause the video            |
