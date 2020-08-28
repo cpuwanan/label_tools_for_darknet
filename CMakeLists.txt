@@ -35,5 +35,10 @@ add_executable(label_tools_video
 )
 target_link_libraries(label_tools_video ${OpenCV_LIBRARIES} ${YAMLCPP_LIBRARIES} ${Boost_SYSTEM_LIBRARY} ${Boost_THREAD_LIBRARY} ${Boost_REGEX_LIBRARY} ${Boost_FILESYSTEM_LIBRARY})
 
-add_executable(label_tools_checker src/label_tools_checker.cpp include/utils.cpp)
-target_link_libraries(label_tools_checker ${OpenCV_LIBRARIES} ${YAMLCPP_LIBRARIES} ${Boost_SYSTEM_LIBRARY} ${Boost_THREAD_LIBRARY} ${Boost_REGEX_LIBRARY} ${Boost_FILESYSTEM_LIBRARY})
+add_executable(label_tools_image 
+	src/label_tools_image.cpp
+	include/label_tools_image/my_tools.cpp
+	include/label_tools_image/my_image.cpp
+	include/utils.cpp
+)
+target_link_libraries(label_tools_image ${OpenCV_LIBRARIES} ${YAMLCPP_LIBRARIES} ${Boost_SYSTEM_LIBRARY} ${Boost_THREAD_LIBRARY} ${Boost_REGEX_LIBRARY} ${Boost_FILESYSTEM_LIBRARY})
