@@ -1,6 +1,6 @@
-input_image_dir: /media/msasrock/Orange1TBWD/Colgate/media/colgate_201022_loadingbay
+input_image_dir: /media/mydata/my_factory
 
-output_image_dir: /mnt/mydata/colgate_projects/label_tools_for_darknet/results/image_v2/loading_bay
+output_image_dir: /hme/results/my_factory
 
 object_classnames: ["carton", "forklift", "pallet", "door", "covered_door"] 
 
