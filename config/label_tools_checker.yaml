@@ -1,5 +1,5 @@
 # For label_tool_checker
 
 checker:
-  image_dir: /mnt/mydata/colgate_projects/label_tools_for_darknet/results/image_v2/loading_bay
+  image_dir: /mnt/mydata/results/factory_front
   class_names: ["carton", "forklift", "pallet", "door", "covered_door"] 
